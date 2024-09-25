@@ -1,0 +1,45 @@
+.root {
+    -fx-background-color: #f9f9fb;
+    -fx-font-family: "Roboto", sans-serif;
+}
+
+.button {
+    -fx-background-color: #7b61ff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 10px;
+
+}
+.button:hover {
+    -fx-background-color: #5a46b7;
+    -fx-border-color: #978aab;
+}
+
+/* Pressed effect (when clicked) */
+.button:pressed {
+    -fx-background-color: #4c1c7a;
+    -fx-border-color: rgba(152, 106, 210, 0.59);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.sidebar {
+    -fx-background-color: #bd3b3b;
+    -fx-padding: 20px;
+    -fx-pref-width: 200px;
+    -fx-border-color: #ddd;
+}
+
+.header-bar {
+    -fx-background-color: #fff;
+    -fx-padding: 10px;
+    -fx-border-color: #ddd;
+}
+
+.pie-chart {
+    -fx-pie-color: linear-gradient(to bottom, #ff6b6b, #ffa84f, #fcd34d);
+}

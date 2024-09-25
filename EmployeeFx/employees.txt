@@ -1,0 +1,4 @@
+John,IT,39000.0,Active
+Amir,Agriculture,48000.0,Active
+Joey,IT,69000.0,Hybrid
+Bob,Accounts,49000.0,Remote
